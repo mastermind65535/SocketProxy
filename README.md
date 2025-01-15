@@ -14,6 +14,12 @@ With its clean implementation and focus on simplicity, SocketProxy serves as a p
 | 1.0.0            | CLI                              | [https://github.com/mastermind65535/SocketProxy/blob/main/SocketProxy/SocketProxy%201.0.0/SocketProxy.py](https://github.com/mastermind65535/SocketProxy/blob/main/SocketProxy/SocketProxy%201.0.0/SocketProxy.py)     |
 | 2.0.0            | CLI                              | [https://github.com/mastermind65535/SocketProxy/blob/main/SocketProxy/SocketProxy%202.0.0/SocketProxy.py](https://github.com/mastermind65535/SocketProxy/blob/main/SocketProxy/SocketProxy%202.0.0/SocketProxy.py)     |
 
+## Usage
+> **SocketProxy -p [PORT] -c [CHUNK_SIZE]**<br>
+> -p : Set listening port.<br>
+> -c : Set data chunk size.<br>
+> SocketProxy -p 8080 -c 4096
+
 ## Pictures
 <img src="screenshot.png">
 <img src="screenshot2.png">
